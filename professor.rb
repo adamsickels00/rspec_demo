@@ -1,5 +1,5 @@
 class Professor
-    attr_reader :name, :subject, :rating
+    attr_accessor :name, :subject, :rating
     def initialize(name,subject,rating)
         @name = name
         @subject = subject
